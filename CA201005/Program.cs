@@ -12,16 +12,16 @@ namespace CA201005
         {
             //eljárás
             Console.WriteLine();
-            Ugat();
 
             //függvény
             string str = Console.ReadLine();
 
             //saját eljárás
-            var nap = Nap();
-            Console.WriteLine(nap);
+            Ugat();
 
             //saját függvény
+            var nap = Nap();
+            Console.WriteLine(nap);
             string magyarNap = MagyarNap();
             Console.WriteLine(magyarNap);
 
